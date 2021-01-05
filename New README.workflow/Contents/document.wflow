@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>AMApplicationBuild</key>
-	<string>492</string>
+	<string>509</string>
 	<key>AMApplicationVersion</key>
 	<string>2.10</string>
 	<key>AMDocumentVersion</key>
@@ -172,12 +172,10 @@ print(path)</string>
 						<string>4</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.000000:305.000000</string>
+				<string>338.250000:305.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -239,7 +237,7 @@ print(path)</string>
 				<key>CFBundleVersion</key>
 				<string>1.0.2</string>
 				<key>CanShowSelectedItemsWhenRun</key>
-				<false/>
+				<true/>
 				<key>CanShowWhenRun</key>
 				<true/>
 				<key>Category</key>
@@ -282,12 +280,10 @@ print(path)</string>
 						<string>0</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.000000:410.000000</string>
+				<string>338.250000:408.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -297,85 +293,76 @@ print(path)</string>
 		<dict>
 			<key>action</key>
 			<dict>
-				<key>AMAccepts</key>
-				<dict>
-					<key>Container</key>
-					<string>List</string>
-					<key>Optional</key>
-					<true/>
-					<key>Types</key>
-					<array/>
-				</dict>
 				<key>AMActionVersion</key>
-				<string>2.0.2</string>
+				<string>1.2.1</string>
 				<key>AMApplication</key>
 				<array>
-					<string>Automator</string>
+					<string>TextEdit</string>
 				</array>
 				<key>AMParameterProperties</key>
 				<dict>
-					<key>pauseDuration</key>
+					<key>enteredRTFDData</key>
 					<dict/>
-					<key>pauseUnit</key>
+					<key>enteredText</key>
 					<dict/>
 				</dict>
 				<key>AMProvides</key>
 				<dict>
 					<key>Container</key>
-					<string>List</string>
+					<string>Single</string>
 					<key>Types</key>
-					<array/>
+					<array>
+						<string>com.apple.cocoa.attributed-string</string>
+					</array>
 				</dict>
+				<key>AMRequiredResources</key>
+				<array/>
 				<key>ActionBundlePath</key>
-				<string>/System/Library/Automator/Pause.action</string>
+				<string>/System/Library/Automator/Get Specified Text.action</string>
 				<key>ActionName</key>
-				<string>Pause</string>
+				<string>Get Specified Text</string>
 				<key>ActionParameters</key>
 				<dict>
-					<key>pauseDuration</key>
-					<integer>0</integer>
-					<key>pauseUnit</key>
-					<integer>0</integer>
+					<key>enteredRTFDData</key>
+					<string></string>
+					<key>enteredText</key>
+					<string></string>
 				</dict>
 				<key>BundleIdentifier</key>
-				<string>com.apple.Automator.Pause</string>
+				<string>com.apple.GetSpecifiedText</string>
 				<key>CFBundleVersion</key>
-				<string>2.0.2</string>
+				<string>1.2.1</string>
 				<key>CanShowSelectedItemsWhenRun</key>
-				<true/>
-				<key>CanShowWhenRun</key>
 				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
 				<key>Category</key>
 				<array>
-					<string>AMCategoryUtilities</string>
+					<string>AMCategoryText</string>
 				</array>
 				<key>Class Name</key>
-				<string>PauseAction</string>
-				<key>IgnoresInput</key>
-				<true/>
-				<key>InputUUID</key>
-				<string>D1F5875D-FB8E-446E-8819-D55E95CA76D6</string>
+				<string>AMGetSpecifiedTextAction</string>
 				<key>Keywords</key>
 				<array>
-					<string>Time</string>
-					<string>Wait</string>
+					<string>Get</string>
+					<string>Text</string>
 				</array>
 				<key>OutputUUID</key>
-				<string>0AF1D3C8-4A39-4B0F-986B-E42053E28C3D</string>
+				<string>E5A1F468-7A15-4EEB-B258-6F72BCE835A9</string>
 				<key>UUID</key>
-				<string>FE16CD5E-5E91-4368-90BF-DED2747B90BB</string>
+				<string>602D10E1-A3CE-4234-A96F-3531F09E7421</string>
 				<key>UnlocalizedApplications</key>
 				<array>
-					<string>Automator</string>
+					<string>TextEdit</string>
 				</array>
 				<key>arguments</key>
 				<dict>
 					<key>0</key>
 					<dict>
 						<key>default value</key>
-						<integer>0</integer>
+						<string></string>
 						<key>name</key>
-						<string>pauseDuration</string>
+						<string>enteredRTFDData</string>
 						<key>required</key>
 						<string>0</string>
 						<key>type</key>
@@ -386,9 +373,9 @@ print(path)</string>
 					<key>1</key>
 					<dict>
 						<key>default value</key>
-						<integer>0</integer>
+						<string></string>
 						<key>name</key>
-						<string>pauseUnit</string>
+						<string>enteredText</string>
 						<key>required</key>
 						<string>0</string>
 						<key>type</key>
@@ -397,17 +384,15 @@ print(path)</string>
 						<string>1</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
-				<true/>
+				<integer>1</integer>
 				<key>location</key>
-				<string>309.000000:566.000000</string>
+				<string>338.250000:574.000000</string>
 				<key>nibPath</key>
-				<string>/System/Library/Automator/Pause.action/Contents/Resources/Base.lproj/main.nib</string>
+				<string>/System/Library/Automator/Get Specified Text.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
-			<true/>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>action</key>
@@ -606,12 +591,10 @@ print(path)</string>
 						<string>5</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.000000:797.000000</string>
+				<string>338.250000:747.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/New Text File.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -712,12 +695,10 @@ print(path)</string>
 						<string>0</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.000000:900.000000</string>
+				<string>338.250000:848.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Open Finder Items.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -727,33 +708,31 @@ print(path)</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>1A340C92-9AE8-45E2-A158-D81289511FE9</key>
+		<key>55A5ABA3-B120-42CF-A9BC-7445411CFE46</key>
 		<dict>
 			<key>from</key>
 			<string>048607C4-30E9-4CB2-BCE3-620F91A12203 - 048607C4-30E9-4CB2-BCE3-620F91A12203</string>
 			<key>to</key>
 			<string>72749318-B626-47B1-8475-600ECFF02D4A - 72749318-B626-47B1-8475-600ECFF02D4A</string>
 		</dict>
-		<key>93FDA83F-1C18-4C98-9465-7E21D4EFD89D</key>
-		<dict>
-			<key>from</key>
-			<string>FE16CD5E-5E91-4368-90BF-DED2747B90BB - FE16CD5E-5E91-4368-90BF-DED2747B90BB</string>
-			<key>to</key>
-			<string>048607C4-30E9-4CB2-BCE3-620F91A12203 - 048607C4-30E9-4CB2-BCE3-620F91A12203</string>
-		</dict>
-		<key>ABDA9713-8AFA-4DCB-90DE-FCDC48F79595</key>
+		<key>6607095D-E586-4C3C-A7D9-A13431A0EFDF</key>
 		<dict>
 			<key>from</key>
 			<string>BE781A66-0342-4D17-B05D-709464260D04 - BE781A66-0342-4D17-B05D-709464260D04</string>
 			<key>to</key>
 			<string>4F70D26E-7BE5-46A9-9566-F0987641BBC5 - 4F70D26E-7BE5-46A9-9566-F0987641BBC5</string>
 		</dict>
-		<key>D06B51F3-D81B-471F-A4A5-FCE06074FA41</key>
+		<key>AFC8C513-6D6A-442C-8E5A-4CDF6E27598D</key>
 		<dict>
 			<key>from</key>
 			<string>4F70D26E-7BE5-46A9-9566-F0987641BBC5 - 4F70D26E-7BE5-46A9-9566-F0987641BBC5</string>
+		</dict>
+		<key>BA94B0D7-2C8F-4BE9-90F5-9854584A3AF8</key>
+		<dict>
+			<key>from</key>
+			<string>602D10E1-A3CE-4234-A96F-3531F09E7421 - 602D10E1-A3CE-4234-A96F-3531F09E7421</string>
 			<key>to</key>
-			<string>FE16CD5E-5E91-4368-90BF-DED2747B90BB - FE16CD5E-5E91-4368-90BF-DED2747B90BB</string>
+			<string>048607C4-30E9-4CB2-BCE3-620F91A12203 - 048607C4-30E9-4CB2-BCE3-620F91A12203</string>
 		</dict>
 	</dict>
 	<key>variables</key>
@@ -801,7 +780,7 @@ print(path)</string>
 		<key>serviceProcessesInput</key>
 		<integer>0</integer>
 		<key>systemImageName</key>
-		<string>NSActionTemplate</string>
+		<string>NSTouchBarDocuments</string>
 		<key>useAutomaticInputType</key>
 		<integer>0</integer>
 		<key>workflowTypeIdentifier</key>

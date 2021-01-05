@@ -7,14 +7,12 @@
 		<dict>
 			<key>NSBackgroundColorName</key>
 			<string>background</string>
-			<key>NSBackgroundSystemColorName</key>
-			<string>systemRedColor</string>
 			<key>NSIconName</key>
-			<string>NSActionTemplate</string>
+			<string>NSTouchBarDocuments</string>
 			<key>NSMenuItem</key>
 			<dict>
 				<key>default</key>
-				<string>Create PDF and Del</string>
+				<string>New README</string>
 			</dict>
 			<key>NSMessage</key>
 			<string>runWorkflowAsService</string>
@@ -25,7 +23,7 @@
 			</dict>
 			<key>NSSendFileTypes</key>
 			<array>
-				<string>public.image</string>
+				<string>public.folder</string>
 			</array>
 		</dict>
 	</array>
